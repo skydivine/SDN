@@ -1,0 +1,1547 @@
+2014/11/24 11:53:00 [error] [php] include(User.php): failed to open stream: No such file or directory (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/components/UserIdentity.php(20): spl_autoload_call()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/controllers/SiteController.php(94): LoginForm->validate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/ws7/index.php?r=site/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/components/UserIdentity.php (20)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/models/LoginForm.php (52)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/controllers/SiteController.php (94)
+2014/11/24 11:53:39 [error] [php] include(Users.php): failed to open stream: No such file or directory (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/components/UserIdentity.php(20): spl_autoload_call()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/controllers/SiteController.php(94): LoginForm->validate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/ws7/index.php?r=site/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/components/UserIdentity.php (20)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/models/LoginForm.php (52)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/controllers/SiteController.php (94)
+2014/11/24 11:54:44 [error] [php] include(Users.php): failed to open stream: No such file or directory (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/components/UserIdentity.php(20): spl_autoload_call()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/controllers/SiteController.php(94): LoginForm->validate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/ws7/index.php?r=site/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/components/UserIdentity.php (20)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/models/LoginForm.php (52)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/controllers/SiteController.php (94)
+2014/11/24 11:54:53 [error] [php] include(Users.php): failed to open stream: No such file or directory (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/components/UserIdentity.php(20): spl_autoload_call()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/controllers/SiteController.php(94): LoginForm->validate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/ws7/index.php?r=site/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/components/UserIdentity.php (20)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/models/LoginForm.php (52)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws7/protected/controllers/SiteController.php (94)
+2014/11/24 19:58:56 [error] [php] include(Users.php): failed to open stream: No such file or directory (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws8/protected/components/UserIdentity.php(20): spl_autoload_call()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws8/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws8/protected/controllers/SiteController.php(94): LoginForm->validate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws8/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/ws8/index.php?r=site/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws8/protected/components/UserIdentity.php (20)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws8/protected/models/LoginForm.php (52)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/ws8/protected/controllers/SiteController.php (94)
+2014/12/09 17:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "guide".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('guide')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('guide')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/guide
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php
+---
+2014/12/09 17:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "media".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('media')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('media')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/media')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/media
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php
+---
+2014/12/09 18:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "media".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('media')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('media')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/media')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/media
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php
+---
+2014/12/09 18:24:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "media".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('media')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('media')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/media')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/media
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php
+---
+2014/12/09 20:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "guide".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('guide')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('guide')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/guide
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/
+---
+2014/12/15 14:03:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "guide".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('guide')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('guide')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/guide
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/index
+---
+2014/12/17 18:25:55 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(47): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionLogin()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php/gii/default/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 18:27:20 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(47): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionLogin()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii/default/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 18:33:20 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(47): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionLogin()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii/default/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 18:33:55 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(17): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 18:35:39 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(17): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 18:36:37 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(17): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 18:54:57 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(47): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionLogin()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii/default/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 19:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "guide".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('guide')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('guide')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/guide
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/login
+---
+2014/12/17 19:16:34 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(47): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionLogin()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii/default/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 19:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lightfury".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('lightfury')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('lightfury')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/lightfury')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/lightfury
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/17 19:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "windwalker".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('windwalker')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('windwalker')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/windwalker')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/windwalker
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/17 19:47:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saint".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('saint')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('saint')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/saint')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/saint
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/17 19:49:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lf".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('lf')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('lf')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/lf')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/lf
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/17 19:50:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lightfury".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('lightfury')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('lightfury')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/lightfury')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/lightfury
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/17 19:53:23 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "Saint".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CController->renderPartial('Saint', NULL, true)
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/SiteController.php(57): CController->render('Saint')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSaint()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('saint')
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/saint')
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/saint
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/17 19:59:06 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(47): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionLogin()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii/default/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/17 22:11:39 [error] [php] Use of undefined constant Saint - assumed 'Saint' (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/site/index.php:4)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/index
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/site/index.php (4)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/SiteController.php (32)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 09:14:53 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(47): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionLogin()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii/default/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 09:35:35 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/SiteController.php(124): CController->render('login', Array)
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/login
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/
+---
+2014/12/18 09:37:11 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/SiteController.php(124): CController->render('login', Array)
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/login
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/
+---
+2014/12/18 10:05:05 [error] [exception.CException] exception 'CException' with message 'UsersController cannot find the requested view "create".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(82): CController->render('create', Array)
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/18 10:05:32 [error] [exception.CException] exception 'CException' with message 'UsersController cannot find the requested view "create".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(82): CController->render('create', Array)
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/18 10:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "media".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('media')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('media')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/media')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/media
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/18 10:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php
+---
+2014/12/18 10:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 10:13:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 10:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "media".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('media')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('media')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/media')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/media
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 10:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 10:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 10:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 17:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php
+---
+2014/12/18 17:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "media".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('media')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('media')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/media')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/media
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 17:53:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/guide
+---
+2014/12/18 17:54:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/index
+---
+2014/12/18 17:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 17:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 17:56:52 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/GiiModule.php(143): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php(111): GiiModule->getAssetsUrl()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModule.php(105): GiiModule->__get()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/main.php(5): GiiModule->__get()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(76): DefaultController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(206): CContentDecorator->run()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(300): DefaultController->endWidget()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/views/layouts/column1.php(7): DefaultController->endContent()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/gii/controllers/DefaultController.php(47): DefaultController->render()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionLogin()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=gii/default/login
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 17:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=site/users/create
+---
+2014/12/18 18:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('users')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users/crea...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php
+---
+2014/12/18 18:07:05 [error] [exception.CDbException] exception 'CDbException' with message 'Column name must be either a string or an array.' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/schema/CDbCommandBuilder.php:828
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/schema/CDbCommandBuilder.php(621): CDbCommandBuilder->createInCondition(Object(CPgsqlTableSchema), NULL, Array, '"t".')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(1485): CDbCommandBuilder->createPkCriteria(Object(CPgsqlTableSchema), 'rifkinurfaiz', '', Array, '"t".')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(168): CActiveRecord->findByPk('rifkinurfaiz')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(55): UsersController->loadModel('rifkinurfaiz')
+#4 [internal function]: UsersController->actionView('rifkinurfaiz')
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/view')
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/view&id=rifkinurfaiz
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=users/create
+---
+2014/12/18 18:25:01 [error] [exception.CException] exception 'CException' with message 'Property "Users.email" is not defined.' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('email')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('email')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CStringValidator->validateAttribute(Object(Users), 'email')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CValidator->validate(Object(Users), NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(75): CActiveRecord->save()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=users/create
+---
+2014/12/18 18:26:01 [error] [exception.CException] exception 'CException' with message 'Property "Users.email" is not defined.' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('email')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('email')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CStringValidator->validateAttribute(Object(Users), 'email')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CValidator->validate(Object(Users), NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(75): CActiveRecord->save()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=users/create
+---
+2014/12/18 18:28:29 [error] [exception.CException] exception 'CException' with message 'Property "Users.email" is not defined.' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('email')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('email')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CStringValidator->validateAttribute(Object(Users), 'email')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CValidator->validate(Object(Users), NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(75): CActiveRecord->save()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=users/create
+---
+2014/12/18 18:32:54 [error] [exception.CException] exception 'CException' with message 'Property "Users.ign" is not defined.' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('ign')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/helpers/CHtml.php(2529): CActiveRecord->__get('ign')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(Users), 'ign')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(Users), 'ign', Array)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(Users), 'ign', Array)
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/_form.php(26): CActiveForm->textField(Object(Users), 'ign', Array)
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require('/home/fasilkom/...')
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/fasilkom/...', Array, true)
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/fasilkom/...', Array, true)
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/create.php(16): CController->renderPartial('_form', Array)
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require('/home/fasilkom/...')
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/fasilkom/...', Array, true)
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/fasilkom/...', Array, true)
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(82): CController->render('create', Array)
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionCreate()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#25 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#26 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/create
+---
+2014/12/18 18:33:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "error403".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('error403')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('error403')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/error403')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/error403
+---
+2014/12/18 18:36:18 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/zii/widgets/CDetailView.php(155): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(147): CDetailView->init()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(172): UsersController->createWidget()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/view.php(23): UsersController->widget()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): UsersController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(56): UsersController->render()
+#10 unknown(0): UsersController->actionView()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/view&id=sky
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/view.php (23)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php (56)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 19:06:21 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[3F000]: Invalid schema name: 7 ERROR:  schema "uas_1306382083" does not exist' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php:548
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php(548): PDO->lastInsertId('UAS_1306382083....')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/schema/CDbCommandBuilder.php(62): CDbConnection->getLastInsertID('UAS_1306382083....')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommandBuilder->getLastInsertID(Object(CPgsqlTableSchema))
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(74): CActiveRecord->save()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 19:07:17 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[3F000]: Invalid schema name: 7 ERROR:  schema "uas_1306382083" does not exist' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php:548
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php(548): PDO->lastInsertId('UAS_1306382083....')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/schema/CDbCommandBuilder.php(62): CDbConnection->getLastInsertID('UAS_1306382083....')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommandBuilder->getLastInsertID(Object(CPgsqlTableSchema))
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(74): CActiveRecord->save()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 19:11:17 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[3F000]: Invalid schema name: 7 ERROR:  schema "uas_1306382083" does not exist' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php:548
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php(548): PDO->lastInsertId('UAS_1306382083....')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/schema/CDbCommandBuilder.php(62): CDbConnection->getLastInsertID('UAS_1306382083....')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommandBuilder->getLastInsertID(Object(CPgsqlTableSchema))
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(74): CActiveRecord->save()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 19:12:20 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[3F000]: Invalid schema name: 7 ERROR:  schema "uas_1306382083" does not exist' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php:548
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php(548): PDO->lastInsertId('UAS_1306382083....')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/schema/CDbCommandBuilder.php(62): CDbConnection->getLastInsertID('UAS_1306382083....')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommandBuilder->getLastInsertID(Object(CPgsqlTableSchema))
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(74): CActiveRecord->save()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 19:15:16 [error] [php] include(serial.php): failed to open stream: No such file or directory (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(186): import()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(287): createValidator()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(260): Comment->createValidators()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(304): Comment->getValidators()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/helpers/CHtml.php(1414): Comment->isAttributeRequired()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CActiveForm.php(597): activeLabelEx()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/_form.php(21): CActiveForm->labelEx()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/create.php(14): CommentController->renderPartial()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CommentController->renderPartial()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(80): CommentController->render()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CommentController->runAction()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CommentController->filterAccessControl()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#25 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CommentController->run()
+#26 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/_form.php (21)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/create.php (14)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php (80)
+2014/12/18 19:15:47 [error] [php] include(serial.php): failed to open stream: No such file or directory (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(186): import()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(287): createValidator()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(260): Comment->createValidators()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(304): Comment->getValidators()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/helpers/CHtml.php(1414): Comment->isAttributeRequired()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CActiveForm.php(597): activeLabelEx()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/_form.php(21): CActiveForm->labelEx()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/create.php(14): CommentController->renderPartial()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CommentController->renderPartial()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(80): CommentController->render()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CommentController->runAction()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CommentController->filterAccessControl()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#25 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CommentController->run()
+#26 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/_form.php (21)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/create.php (14)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php (80)
+2014/12/18 19:16:43 [error] [php] include(serial.php): failed to open stream: No such file or directory (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(186): import()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(287): createValidator()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(260): Comment->createValidators()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(304): Comment->getValidators()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/helpers/CHtml.php(1414): Comment->isAttributeRequired()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/widgets/CActiveForm.php(597): activeLabelEx()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/_form.php(21): CActiveForm->labelEx()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/create.php(14): CommentController->renderPartial()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CommentController->renderPartial()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(80): CommentController->render()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CommentController->runAction()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CommentController->filterAccessControl()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#25 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CommentController->run()
+#26 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/_form.php (21)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/create.php (14)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php (80)
+2014/12/18 19:17:19 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[3F000]: Invalid schema name: 7 ERROR:  schema "uas_1306382083" does not exist' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php:548
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php(548): PDO->lastInsertId('UAS_1306382083....')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/schema/CDbCommandBuilder.php(62): CDbConnection->getLastInsertID('UAS_1306382083....')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommandBuilder->getLastInsertID(Object(CPgsqlTableSchema))
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(74): CActiveRecord->save()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 19:21:34 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[3F000]: Invalid schema name: 7 ERROR:  schema "uas_1306382083" does not exist' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php:548
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/CDbConnection.php(548): PDO->lastInsertId('UAS_1306382083....')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/schema/CDbCommandBuilder.php(62): CDbConnection->getLastInsertID('UAS_1306382083....')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(1083): CDbCommandBuilder->getLastInsertID(Object(CPgsqlTableSchema))
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(74): CActiveRecord->save()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 19:24:59 [error] [exception.CException] exception 'CException' with message 'Property "Comment.id" is not defined.' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CStringValidator.php(79): CActiveRecord->__get('id')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/validators/CValidator.php(213): CStringValidator->validateAttribute(Object(Comment), 'id')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CModel.php(159): CValidator->validate(Object(Comment), NULL)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(74): CActiveRecord->save()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionCreate()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/create')
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/create
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 19:25:31 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/zii/widgets/CDetailView.php(155): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(147): CDetailView->init()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(172): CommentController->createWidget()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/view.php(22): CommentController->widget()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CommentController->renderPartial()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(56): CommentController->render()
+#10 unknown(0): CommentController->actionView()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CommentController->runAction()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CommentController->filterAccessControl()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CommentController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/view&id=ad
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/view.php (22)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php (56)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 19:36:37 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "Media".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CController->renderPartial('Media', NULL, true)
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/SiteController.php(42): CController->render('Media')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMedia()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('media')
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/media')
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/media
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/
+---
+2014/12/18 19:51:35 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/zii/widgets/CDetailView.php(155): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(147): CDetailView->init()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(172): UsersController->createWidget()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/view.php(23): UsersController->widget()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): UsersController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(56): UsersController->render()
+#10 unknown(0): UsersController->actionView()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/view&id=ganteng
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/view.php (23)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php (56)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 19:54:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/create".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users/create')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/create
+---
+2014/12/18 19:59:04 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/zii/widgets/grid/CGridView.php(350): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(172): UsersController->createWidget()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/admin.php(45): UsersController->widget()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): UsersController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(162): UsersController->render()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionAdmin()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/admin
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/admin.php (45)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php (162)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 20:05:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "\site\guide".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('\site\guide')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('\site\guide')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/\site\g...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/\site\guide
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 20:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "\site\guide".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('\site\guide')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('\site\guide')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/\site\g...')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/\site\guide
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 20:07:03 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/zii/widgets/CListView.php(217): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(147): CListView->init()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(172): CommentController->createWidget()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/index.php(16): CommentController->widget()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CommentController->renderPartial()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(129): CommentController->render()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionIndex()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CommentController->runAction()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CommentController->filterAccessControl()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CommentController->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/index.php (16)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php (129)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 20:24:48 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/zii/widgets/grid/CGridView.php(350): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(172): UsersController->createWidget()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/admin.php(45): UsersController->widget()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): UsersController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): UsersController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): UsersController->renderPartial()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php(162): UsersController->render()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): UsersController->actionAdmin()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): UsersController->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=users/admin
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/users/admin.php (45)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/UsersController.php (162)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 20:32:40 [error] [php] mkdir(): Disk quota exceeded (/home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/utils/CFileHelper.php:307)
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/zii/widgets/grid/CGridView.php(350): CAssetManager->publish()
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(147): CGridView->init()
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(172): CommentController->createWidget()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/admin.php(45): CommentController->widget()
+#5 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(126): require()
+#6 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CBaseController.php(95): CommentController->renderInternal()
+#7 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(869): CommentController->renderFile()
+#8 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(782): CommentController->renderPartial()
+#9 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php(144): CommentController->render()
+#10 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/actions/CInlineAction.php(49): CommentController->actionAdmin()
+#11 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(133): CommentController->runAction()
+#13 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CInlineFilter.php(58): CommentController->filterAccessControl()
+#16 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#19 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CommentController->run()
+#20 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CWebApplication->run()
+REQUEST_URI=/~ali.reza31/lat/index.php?r=comment/admin
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/views/comment/admin.php (45)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/protected/controllers/CommentController.php (144)
+in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php (13)
+2014/12/18 20:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "komenal".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('komenal')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('komenal')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/komenal')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/komenal
+HTTP_REFERER=http://mahasiswa.cs.ui.ac.id/~ali.reza31/lat/index.php?r=comment/create
+---
+2014/12/18 20:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "error403".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('error403')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('error403')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/error403')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/error403
+---
+2014/12/18 20:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "error403".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('error403')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('error403')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/error403')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/error403
+---
+2014/12/18 20:52:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "useranal".' in /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CController.php(270): CController->missingAction('useranal')
+#1 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(282): CController->run('useranal')
+#2 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/useranal')
+#3 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/fasilkom/mahasiswa/a/ali.reza31/public_html/lat/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~ali.reza31/lat/index.php?r=site/useranal
+---
