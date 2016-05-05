@@ -10,3 +10,5 @@ Untuk menjalankan website:
 4. Letakkan folder yang berisi file-file dari repository satu tingkat dengan folder Yii yang selesai didownload
 5. Pastikan nama folder yang telah di download dari yii bernama "yii" (tanpa tanda kutip)
 6. Jalankan di web browser anda http://localhost:8080/SDN/ atau http://localhost/SDN/  (pilih salah satu yang bisa)
+
+Untuk melihat bagaimana tampilan website yang sudah jadi, dapat anda lihat di http://kawung.mhs.cs.ui.ac.id/~ali.reza31/lat/
